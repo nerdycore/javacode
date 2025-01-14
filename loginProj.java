@@ -1,17 +1,42 @@
 import java.util.Scanner;
 public class loginProj {
     //private array userinfo
-    private String[] user;
-    private String[] pass;
-
-    //setter
+    private static String[] user;
+    private static String[] pass;
+    private static int userlist = 0;
+    //username setter
     public void setUser(String user[]) {
         this.user = user;
     }
-    //getter
+    // username getter
     public String[] getUser() {
         return user;
     }
+    // password setter
+    public void setPass(String pass[]) {
+        this.pass = pass;
+    }  
+    // password getter
+    public String[] getPass() {
+        return pass;
+    }
+
+    /*public static void sign() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Username: ");
+        String username = sc.nextLine();
+        for(int i=0; i < userlist; i++) {
+            if(getUser(i).equals(username)) {
+                System.out.println("--------------------");
+                System.out.println("  ACCOUNT EXISTED.  ");
+                System.out.println("--------------------");
+                return;
+            }
+        }
+        System.out.print("Enter Password: ");
+        String password = sc.nextLine();
+        
+    }*/
 
     //main menu
     public static void main(String[] args) {
@@ -33,7 +58,7 @@ public class loginProj {
                     System.out.println("--------------------");
                     System.out.println("       SIGN UP      ");
                     System.out.println("--------------------");
-                    //loginProj set = new loginProj();
+                    //sign();
                     break;
                 case 2:
                     System.out.println("--------------------");
