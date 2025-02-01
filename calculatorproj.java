@@ -56,31 +56,31 @@ public class calculatorproj {
                     //System.out.println("Addition\n");
                     System.out.println(addition(sc));
                     System.out.println();
-                    sc.close();
+                    //sc.close();
                     break;
                 case 2:
                     //System.out.println("Subtraction\n");
                     System.out.println(subtraction(sc));
                     System.out.println();
-                    sc.close();
+                    //sc.close();
                     break;
                 case 3:
                     //System.out.println("Multiplication\n");
                     System.out.println(multiplication(sc));
                     System.out.println();
-                    sc.close();
+                    //sc.close();
                     break;  
                 case 4:
                     //System.out.println("Division\n");
                     System.out.println(division(sc));
                     System.out.println();
-                    sc.close();
+                    //sc.close();
                     break;
                 case 5:
                     //System.out.println("Modulo\n");
                     System.out.println(modulo(sc));
                     System.out.println();
-                    sc.close();
+                    //sc.close();
                     break;
                 case 6:
                     System.out.println("Exiting the program...\n");
